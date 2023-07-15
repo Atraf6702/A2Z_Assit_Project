@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 
-function NewTicketPage() {
+function TicketPage() {
   const [leadSource, setLeadSource] = useState('');
   const [name, setName] = useState('');
   const [contactNumber, setContactNumber] = useState('');
@@ -223,4 +223,4 @@ function NewTicketPage() {
   );
 }
 
-export default NewTicketPage;
+export default TicketPage;

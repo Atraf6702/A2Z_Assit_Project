@@ -36,7 +36,7 @@ const router = createBrowserRouter([
     element: <Login/>,
   },
   {
-    path: "/create-ticket",
+    path: "/ticket",
     element: <NewTicketPage/>,
   },
  

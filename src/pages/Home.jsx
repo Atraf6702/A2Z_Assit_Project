@@ -40,7 +40,7 @@ function Home() {
         <ul className="space-x-4">
           <li>
 
-            <Link to='/create-ticket'>
+            <Link to='/ticket'>
             <button
               className="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600"
             >
