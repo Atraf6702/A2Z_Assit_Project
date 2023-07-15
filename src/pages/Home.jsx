@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import { Link } from 'react-router-dom';
 
 
 
@@ -38,12 +39,14 @@ function Home() {
       <nav className="flex">
         <ul className="space-x-4">
           <li>
-            <a
-              href="/create-ticket"
+
+            <Link to='/create-ticket'>
+            <button
               className="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600"
             >
               Create Ticket
-            </a>
+              </button>
+              </Link>
           </li>
          
         </ul>
